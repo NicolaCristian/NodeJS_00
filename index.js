@@ -74,6 +74,8 @@ if(req.query.log&&req.query.psw){
 console.log("login: "+req.query.log); 
 console.log("password: "+req.query.psw);   
 res.send("Benvenuto "+req.query.log);
+
+
 res.status(200);
 
 } else {
